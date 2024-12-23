@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jose Carmona - Aspiring Actuary & Data Analyst</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            margin: 0;
+            font-family: 'Roboto', sans-serif;
+            background-color: #f5f5f5;
+            color: #333;
+        }
+        header {
+            height: 100vh;
+            background: linear-gradient(135deg, #1c1e53, #3b5998);
+            color: white;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+        }
+        header h1 {
+            font-size: 3rem;
+            margin: 0;
+            opacity: 0;
+            transform: translateY(-30px);
+            animation: fadeIn 1s ease-out forwards;
+        }
+        header p {
+            font-size: 1.5rem;
+            margin: 20px 0;
+            opacity: 0;
+            transform: translateY(20px);
+            animation: fadeIn 1s ease-out forwards 0.5s;
+        }
+        .btn {
+            padding: 10px 20px;
+            font-size: 1rem;
+            color: #fff;
+            background-color: #ff5722;
+            border: none;
+            border-radius: 5px;
+            text-decoration: none;
+            margin: 10px;
+            opacity: 0;
+            transform: translateY(20px);
+            animation: fadeIn 1s ease-out forwards 0.7s;
+        }
+        .btn:hover {
+            background-color: #e64a19;
+            cursor: pointer;
+        }
+        section {
+            padding: 50px 20px;
+            max-width: 900px;
+            margin: auto;
+            text-align: center;
+        }
+        section h2 {
+            font-size: 2rem;
+            margin-bottom: 20px;
+        }
+        section p {
+            font-size: 1rem;
+            line-height: 1.6;
+        }
+        .skills {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            gap: 15px;
+        }
+        .skill {
+            background-color: #ddd;
+            padding: 10px 20px;
+            border-radius: 5px;
+            font-size: 1rem;
+        }
+        @keyframes fadeIn {
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+        footer {
+            background: #333;
+            color: white;
+            text-align: center;
+            padding: 20px;
+        }
+    </style>
+</head>
+<body>
+    <!-- Header Section -->
+    <header>
+        <h1>Jose Carmona</h1>
+        <p>Aspiring Actuary & Data Analyst</p>
+        <a href="#portfolio" class="btn">View Portfolio</a>
+        <a href="#contact" class="btn">Contact Me</a>
+    </header>
+
+    <!-- About Me Section -->
+    <section id="about">
+        <h2>About Me</h2>
+        <p>Welcome! I am Jose Carmona, a dedicated professional with a Bachelor of Science in Applied Mathematics. I am currently pursuing an Actuarial Science Certification and specialize in data analysis, visualization, and predictive modeling.</p>
+    </section>
+
+    <!-- Portfolio Section -->
+    <section id="portfolio">
+        <h2>Portfolio</h2>
+        <p>Here are some of the projects I have worked on, showcasing my skills in SQL, Tableau, and Power BI:</p>
+        <p><strong>Interactive Dashboards:</strong> Designed dashboards that improved reporting accuracy by 15%.</p>
+        <p><strong>Application Development:</strong> Currently developing an app for streamlined user interactions and data analysis.</p>
+        <a href="https://github.com/jcarmona485" target="_blank">View More on GitHub</a>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills">
+        <h2>Skills</h2>
+        <div class="skills">
+            <span class="skill">SQL</span>
+            <span class="skill">Tableau</span>
+            <span class="skill">Power BI</span>
+            <span class="skill">Python</span>
+            <span class="skill">C++</span>
+            <span class="skill">Microsoft Excel</span>
+        </div>
+    </section>
+
+    <!-- Experience Section -->
+    <section id="experience">
+        <h2>Experience</h2>
+        <p><strong>Data Analyst (Freelance):</strong> Conducted data analysis and created visualizations to help clients uncover insights and make informed decisions.</p>
+        <p><strong>Sales Concierge:</strong> Achieved 90% customer satisfaction and boosted repeat business through exceptional service.</p>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact">
+        <h2>Contact Me</h2>
+        <p>Feel free to reach out via email or visit my LinkedIn profile for more details.</p>
+        <p>Email: <a href="mailto:jcjobsearching@gmail.com">jcjobsearching@gmail.com</a></p>
+        <p><a href="https://www.linkedin.com/in/jose-carmona-402a46170/" target="_blank">LinkedIn Profile</a></p>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2024 Jose Carmona. All Rights Reserved.</p>
+    </footer>
+</body>
+</html>
